@@ -1,0 +1,155 @@
+/* 1024 PX */
+
+@media (max-width: 1024px) {
+    body {
+        width: 1024px;
+    }
+
+    .container {
+        width: 924px;
+    }
+  /* HEADER */
+    header {
+        width: 1024px;
+    }
+
+    .content__nav {
+        display: none;
+    }
+
+    .header__content {
+        padding-top: 20px;
+    }
+
+    .logo__img {
+        width: 26px;
+        height: 48px;
+    }
+
+    .logo__text {
+        width: 117px;
+        height: 29px;
+    }
+
+    .search__line {
+        left: -470px;
+    }
+
+
+  /* HERO */
+  .hero__container {
+    margin-top: 40px;
+    height: 668px;
+    background-image: url(../img/hero-pic-1024-1.png);
+  }
+
+  .hero__section__content {
+    top: 160px;
+    left: 77px;
+  }
+
+  .hero__text {
+    font-size: 60px;
+    line-height: 73px;
+  }
+
+  .hero__p {
+    width: 660px;
+    margin-top: 16px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .hero__btn {
+    margin-top: 60px;
+  }
+
+  /* ABOUT */
+  .about__text {
+    width: 924px;
+    height: 256px;
+  }
+
+  .about__blocks {
+    flex-direction: column;
+    margin-top: 60px;
+    justify-content: flex-start;
+  }
+
+  .about__blocks__pic_block {
+    width: 924px;
+    height: 640px;
+    background-size: cover;
+    border-radius: 32px;
+  }
+
+  .pic_block__description {
+    width: 824px;
+    height: 96px;
+    top: 444px;
+  }
+
+  .about__blocks__block {
+    margin-top: 32px;
+    width: 924px;
+  }
+
+  /* HOW */
+  .how__section {
+    margin-top: 80px;
+  }
+
+  .how__content__text {
+    width: 437px;
+    height: 700px;
+  }
+
+  .how__content__text p{
+    height: 576px;
+  }
+
+  .how__content__text__btns {
+    margin-top: 25px;
+  }
+
+  .how__content__img {
+    width: 437px;
+    height: 689px;
+    background-image: url(../img/how-pic-1024-1.png);
+  }
+
+  /* FAQ */
+  .faq__section {
+    margin-top: 80px;
+  }
+
+  .faq__block__text h3 {
+    margin: 39px 0 39px;
+  }
+
+  .faq__block__text p,
+  .faq__block__text h3 {
+    width: 924px;
+  }
+
+  /* FOOTER */
+  footer {
+    margin-top: 80px;
+  }
+
+  .form__input {
+    width: 515px;
+  }
+
+  .footer__form_block__send__btn {
+    width: 241px;
+  }
+
+  .footer__info_block {
+    width: 251px;
+  }
+
+  .footer__text_block {
+    display: none;
+  }
+}
